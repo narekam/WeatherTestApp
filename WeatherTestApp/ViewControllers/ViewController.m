@@ -144,7 +144,7 @@
 - (NSArray *)parseDataFromJSON {
     NSArray *tempArray = [NSArray new];
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"cities" ofType:@"json"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"cities" ofType:@"txt"];
     NSData *data = [NSData dataWithContentsOfFile:path];
     NSDictionary *citiesDict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
     tempArray = [CityModel arrayOfModelsFromDictionaries:citiesDict[@"cities"] error:nil];

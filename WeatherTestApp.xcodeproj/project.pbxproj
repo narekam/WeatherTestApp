@@ -16,7 +16,7 @@
 		E8C17F691F7BC1BC008FAC34 /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE10CE1F7BBCE40078A60D /* CityModel.m */; };
 		E8C17F6A1F7BC1BF008FAC34 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE10CC1F7BBCE40078A60D /* NetworkManager.m */; };
 		E8C17F6B1F7BC1C2008FAC34 /* NFAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE10CB1F7BBCE40078A60D /* NFAPIClient.m */; };
-		E8C17F6C1F7BC1C7008FAC34 /* cities.json in Resources */ = {isa = PBXBuildFile; fileRef = E8BE10C71F7BBCE40078A60D /* cities.json */; };
+		E8C17F6C1F7BC1C7008FAC34 /* cities.txt in Resources */ = {isa = PBXBuildFile; fileRef = E8BE10C71F7BBCE40078A60D /* cities.txt */; };
 		E8C17F6D1F7BC764008FAC34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8BE10C11F7BBCE40078A60D /* LaunchScreen.storyboard */; };
 		E8C17F6E1F7BC767008FAC34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8BE10C31F7BBCE40078A60D /* Main.storyboard */; };
 		E8C17F731F7BDE2A008FAC34 /* NFDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C17F721F7BDE2A008FAC34 /* NFDatabaseManager.m */; };
@@ -37,7 +37,7 @@
 		E8BE10C41F7BBCE40078A60D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8BE10C51F7BBCE40078A60D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8BE10C61F7BBCE40078A60D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8BE10C71F7BBCE40078A60D /* cities.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cities.json; sourceTree = "<group>"; };
+		E8BE10C71F7BBCE40078A60D /* cities.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = cities.txt; sourceTree = "<group>"; };
 		E8BE10C91F7BBCE40078A60D /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		E8BE10CA1F7BBCE40078A60D /* NFAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NFAPIClient.h; sourceTree = "<group>"; };
 		E8BE10CB1F7BBCE40078A60D /* NFAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFAPIClient.m; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		E8BE10BF1F7BBCE40078A60D /* SupportFiles */ = {
 			isa = PBXGroup;
 			children = (
-				E8BE10C71F7BBCE40078A60D /* cities.json */,
+				E8BE10C71F7BBCE40078A60D /* cities.txt */,
 				E8BE10C51F7BBCE40078A60D /* main.m */,
 				E8BE10C61F7BBCE40078A60D /* Info.plist */,
 				E8BE10C01F7BBCE40078A60D /* Assets.xcassets */,
@@ -225,7 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8C17F6C1F7BC1C7008FAC34 /* cities.json in Resources */,
+				E8C17F6C1F7BC1C7008FAC34 /* cities.txt in Resources */,
 				E8C17F6E1F7BC767008FAC34 /* Main.storyboard in Resources */,
 				E8C17F6D1F7BC764008FAC34 /* LaunchScreen.storyboard in Resources */,
 				E8C17F671F7BC1A0008FAC34 /* Assets.xcassets in Resources */,
