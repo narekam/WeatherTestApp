@@ -16,8 +16,6 @@
 static NSString *BaseURL = @"https://api.openweathermap.org/data/2.5";
 static NSString *APIKey = @"2c255e685acf51a6fbd9a0b4588bdbc9";
 
-
-
 + (NetworkManager *)sharedManager {
     static dispatch_once_t pred = 0;
     __strong static id _sharedObject = nil;
@@ -28,9 +26,7 @@ static NSString *APIKey = @"2c255e685acf51a6fbd9a0b4588bdbc9";
 }
 
 #pragma mark - GET calls
-
 //  http://api.openweathermap.org/data/2.5/weather?q=London&APPID=1111111111
-
 - (NSURLSessionDataTask *)getWeatherForCity:(CityModel *)city withCompletion:(void (^) (id responseDict, NSData *responseData, NSError *error))completionBlock {
     NFAPIClient *client = [NFAPIClient clientWithBaseURL:BaseURL];
     

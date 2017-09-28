@@ -38,8 +38,6 @@
     textViewSmallModeMultiplier = 0.33f;
     textViewBigModeMultiplier = 0.66f;
     
-    
-    //
     citiesDataSource = [self parseDataFromJSON];
     [self.tableView reloadData];
     
@@ -60,7 +58,6 @@
     
     tempCityForDequeue = citiesDataSource[indexPath.row];
     cell.textLabel.text = [NSString stringWithFormat:@"%@, %@", tempCityForDequeue.name, tempCityForDequeue.countryCode];
-
     
     return cell;
 }
